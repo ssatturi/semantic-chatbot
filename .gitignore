@@ -1,0 +1,13 @@
+__pycache__/
+.venv/
+*.pyc
+.DS_Store
+*.log
+*.sqlite3
+/logs/
+/dist/
+/build/
+*.pdf
+docker-compose.override.yml
+.venv
+.ven/*
