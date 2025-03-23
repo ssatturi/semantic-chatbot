@@ -72,7 +72,7 @@ docker compose up --build
 
 ```
 Endpoint	Method	Description
-/	GET	Health check
+/GET	Health check
 /api/chat	POST	Send message to chatbot
 /api/search	POST	Semantic search on chat history
 /ws/chat	WS	WebSocket real-time chat support
