@@ -13,7 +13,7 @@ A production-grade, event-driven, AI-powered chatbot system built with **FastAPI
 
 ## Architecture Overview
 
-```mermaid
+```
 flowchart TD
     A[Client/WebSocket] -->|Send/Receive Message| B(FastAPI App)
     B --> C[MongoDB - Chat History]
